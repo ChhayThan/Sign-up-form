@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+button {
+  font-family: "Poppins", Helvetica, sans-serif;
+  color: #ffffff;
+  font-size: 1.2rem;
+  line-height: 1.3;
+  background-color: rgb(49, 49, 49);
+}
+
+h1,
+p {
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+h1 strong {
+  color: rgb(212, 0, 0);
+}
+
+p {
+  font-size: 18px;
+}
+
+container {
+  display: flex;
+  flex-direction: row;
+}
+.background-img {
+  background-color: black;
+}
+.background-img img {
+  height: 100vh;
+  width: auto;
+}
+
+.content {
+  width: 100vw;
+  background-color: rgb(49, 49, 49);
+}
+
+legend {
+  margin: 20px;
+  text-decoration: underline;
+  text-decoration-color: rgb(212, 0, 0);
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.signup-form {
+  padding: 20px;
+  margin: 10px;
+  background-color: rgb(212, 0, 0);
+}
+.signup-form {
+  width: 540px;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+  box-shadow: 0px 5px 5px rgba(255, 174, 174, 0.123);
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 2vw 0 2vw;
+  margin-bottom: 10px;
+}
+
+.form-row label {
+  margin-right: 10px;
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"],
+.form-row input[type="tel"],
+.form-row input[type="password"] {
+  background-color: #ffffff;
+  border: 1px solid #d6d9dc;
+  border-radius: 3px;
+  padding: 4px;
+  width: 180px;
+}
+
+input:focus {
+  border: none;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.342);
+  outline: none;
+}
+
+input:invalid:focus {
+  border: 2px solid rgb(255, 54, 131);
+}
+
+input:focus:valid {
+  border: rgb(255, 255, 255) 2px solid;
+}
+
+p strong {
+  color: rgb(212, 0, 0);
+}
+
+button {
+  background-color: rgb(212, 0, 0);
+  padding: 20px;
+  margin: 20px;
+  margin-bottom: -20px;
+  display: inline-block;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
