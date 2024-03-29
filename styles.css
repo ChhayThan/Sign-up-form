@@ -14,8 +14,8 @@ button {
 
 h1,
 p {
-  margin-left: 20px;
-  margin-top: 50px;
+  margin-left: 50px;
+  margin-top: 20px;
 }
 
 h1 strong {
@@ -44,7 +44,7 @@ container {
 }
 
 legend {
-  margin: 20px;
+  margin: 50px;
   text-decoration: underline;
   text-decoration-color: rgb(212, 0, 0);
   font-weight: bold;
@@ -53,7 +53,7 @@ legend {
 
 .signup-form {
   padding: 20px;
-  margin: 10px;
+  margin: 50px;
   background-color: rgb(212, 0, 0);
 }
 .signup-form {
@@ -110,7 +110,7 @@ p strong {
 button {
   background-color: rgb(212, 0, 0);
   padding: 20px;
-  margin: 20px;
+  margin: 50px;
   margin-bottom: -20px;
   display: inline-block;
   color: #fff;
