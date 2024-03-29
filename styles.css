@@ -57,7 +57,7 @@ legend {
   background-color: rgb(212, 0, 0);
 }
 .signup-form {
-  width: 540px;
+  width: 600px;
   display: flex;
   flex-flow: row wrap;
   gap: 1rem;
