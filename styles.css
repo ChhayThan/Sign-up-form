@@ -128,3 +128,7 @@ button:hover {
 footer {
   color: black;
 }
+
+.error {
+  color: rgb(255, 134, 154);
+}
